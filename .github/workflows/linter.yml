@@ -1,8 +1,5 @@
 name: Lint Code
 
-# This workflow runs flake8 linting on Python code
-# Triggered on push and pull requests to main branch
-
 on:
   push:
     branches: [ main, master ]
